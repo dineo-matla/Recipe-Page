@@ -1,0 +1,26 @@
+:root {
+  --container-color: hsl(0, 0%, 100%);
+  --secondary-container: hsl(30, 54%, 90%);
+  --primary-text-color: hsl(30, 18%, 87%);
+  --secondary-text-color: hsl(30, 10%, 34%);
+  --font-color: hsl(24, 5%, 18%);
+  --heading-color: hsl(14, 45%, 36%);
+  --secondary-heading-color: hsl(332, 51%, 32%);
+  --background-color: hsl(330, 100%, 98%);
+}
+
+body {
+  background-color: var(--secondary-container);
+}
+
+.container {
+  max-width: 650px;
+  background-color: var(--container-color);
+}
+
+.header-img {
+  display: block;
+  margin: 5px auto;
+  padding: 8px;
+  width: 500px;
+}
